@@ -1,0 +1,206 @@
+$colorStyle: #5e7a7d;
+main{
+    .nav-list {
+            position: relative;
+            background-color: #C5E4E7;
+            width: 100%;
+            height: 245px;
+
+            .parent-container {
+                position: absolute;
+                left: 140px;
+                top: 75px;
+                width: 255px;
+                height: 128px;
+                background-color: white;
+                border-radius: 7px;
+
+                .nav-container {
+                        position: absolute;
+                        left: 135px;
+                        top: 10px;
+                        width: 110px;
+                        height: 110px;
+                        background-color:  #00474B;
+                        border-radius: 5px;
+
+                        .keys{
+                            position: absolute;
+                            left: 15px;
+                            top: 85px;
+                            width: 80px;
+                            height: 13px;
+                            background-color: #26C2AE;
+                            border-radius: 2px;
+                            cursor: pointer;
+                        }
+                        .keys:hover{
+                            background-color:  #9FE8DF;
+                        }
+                        .lamp{
+                            position: absolute;
+                            left: 29px;
+                            top: 1px;
+                            font-size: 8px;
+                        }
+                        .nav-container-res{
+                            position: absolute;
+                            height: 24px;
+                            left: 4px;
+                            font-family: 'Space Mono' sans-serif;
+                            font-size: 8px;
+                            line-height: 24px;
+                            color: white;
+                        }
+                        .nav-container-per{
+                            position: absolute;
+                            left: 5px;
+                            top: 17px;
+                            font-family: 'Space Mono';
+                            font-size: 6px;
+                            line-height: 24px;
+                            color: $colorStyle;
+                        }
+
+                        .nav-container-tot{
+                            position: absolute;
+                            height: 24px;
+                            left: 4px;
+                            top: 34px;
+                            font-family: 'Space Mono' sans-serif;
+                            font-size: 8px;
+                            line-height: 24px;
+                            color: white;
+                        }
+
+                        .nav-container-pers{
+                            position: absolute;
+                            left: 5px;
+                            top: 50px;
+                            font-family: 'Space Mono';
+                            font-size: 6px;
+                            line-height: 24px;
+                            color: $colorStyle;
+                        }
+
+                        .nav-dolor{
+                            position: absolute;
+                            left: 65px;
+                            top: 12px;
+                            color:#26C2AE;
+                        }
+
+                        .nav-dolors{
+                            position: absolute;
+                            left: 65px;
+                            top: 47px;
+                            color: #26C2AE;
+                        }
+
+                    }
+
+                .text {
+                    position: absolute;
+                    left: 10px;
+                    right: 89.45%;
+                    top: calc(35% - 27px/2 - 27px);
+                    font-family: 'Space Mono';
+                    font-size: 6px;
+                    line-height: 24px;
+                    color: $colorStyle;
+                }
+    
+                .style-input {
+                    position: absolute;
+                    top: 25px;
+                    left: 10px;
+                    width: 110px;
+                    height: 8px;
+                    text-align: right;
+                    padding-top: 2px;
+                    border: none;
+                    outline: none;
+                }
+                .styles-input{
+                    position: absolute;
+                    top: 101px;
+                    left: 10px;
+                    width: 110px;
+                    height: 8px;
+                    text-align: right;
+                    padding-top: 2px;
+                    border: none;
+                    outline: none;
+                }
+                .logo {
+                    position: absolute;
+                    font-size: 8px;
+                    top: 20px;
+                    left: 15px;
+                    color: $colorStyle;
+                    }
+    
+                .textstyle {
+                        position: absolute;
+                        left: 10px;
+                        top: calc(32% - -10px/2);
+                        font-family: 'Space Mono';
+                        font-size: 6px;
+                        color: $colorStyle;
+                    }
+                        .nikname {
+                            position: absolute;
+                            top: 70px;
+                            left: 10px;
+                            font-size: 6px;
+                            font-family: 'Space Mono';
+                            line-height: 24px;
+                            color: $colorStyle;
+                            }
+                
+                .wrapper{
+                    position: absolute;
+                    left: 8px;
+                    top: 51px;
+                    width: 120px;
+                    height: 50px;
+                    cursor: pointer;
+
+                    .continer{
+                        display: flex;
+                        justify-content:space-between;
+                        flex-wrap: wrap;
+                        .nav-wrapper{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            font-size: 9px;
+                            width: 35px;
+                            height: 15px;
+                            background-color: #00474B;;
+                            border-radius: 4px;
+                            margin: 2px;
+                        }
+                        .nav-wrapper:hover{
+                            background-color: #26C2AE;
+                        }
+                        .open{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: 35px;
+                            height: 16px;
+                            background-color: silver;
+                            font-size: 9px;
+                            border-radius: 2px;
+                        }
+                        .open:hover{
+                            background-color: #26C2AE; ;
+                        }
+                        
+                    }
+                }
+                    
+            }    
+        }  
+    }

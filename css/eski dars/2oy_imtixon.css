@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+body {
+    font-size: 25px;
+    font-family: sans-serif;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+main .boshlanish .container {
+    width: 100%;
+    height: 900px;
+    
+}
+
+
+main .boshlanish .container {
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    height: 425px;
+    margin: 0px auto;
+    background-color: rgb(46, 42, 42);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./imtixon/img/bg-image-daytime.jpg);
+    background-size: cover;
+}
+
+main .boshlanish .container .textstyle{
+   position: absolute;
+   left: 300px;
+   top: 60px;
+}
+
+
+main .boshlanish .container span{
+    position: absolute;
+    left: 268px;
+    top: 90px;
+}
+
+main .boshlanish .container .time{
+    position: absolute;
+    height: 0px;
+    left: 280px;
+    top: calc(50% - 200px/2);
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 230px;
+    line-height: 200px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: -5px;
+    color: white;
+}
+
+main .boshlanish .container .textstyle2{
+    position: absolute;
+    left: 268px;
+    bottom: 9px;
+}
+
+main .boshlanish .container .textstyle3{
+    position: absolute;
+    right: 800px;
+    top: 250px;
+}
+
+main .boshlanish .container .button{
+    position: absolute;
+    right: 200px;
+    bottom: 100px;
+
+}
+
+main .boshlanish .container .knopka{
+    position: absolute;
+    right: 190px;
+    bottom: 100px;
+    width: 140px;
+    height: 50px;
+    border-radius: 40px;
+}
+
+main .boshlanish .container .knopka:hover{
+    cursor: pointer;
+    background-color: red;
+    letter-spacing: 0.02em;
+    transition: 0.5s;
+}
+
+main .boshlanish .container .knopka .knoptext{
+    width: 100px;
+    
+}
+
+
+main .tugash .container2 {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: silver;
+}
+
+main .tugash .container2 .day2 .textile1 {
+    position: absolute;
+    left: 280px;
+    top: 36px;
+    color: black;
+}
+
+
+main .tugash .container2 .top {
+    position: absolute;
+    height: 0px;
+    left: 280px;
+    top: 250px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 70px;
+    line-height: 200px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: -5px;
+    color: black;
+}
+
+
+main .tugash .container2 .day2 .textile2{
+    position: absolute;
+    left: 280px;
+    bottom: 100px;
+    color: black;
+}
+
+main .tugash .container2 .top1{
+    position: absolute;
+    height: 0px;
+    left: 280px;
+    bottom: -55px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 90px;
+    line-height: 200px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: -5px;
+    color: black;
+}
+
+main .tugash .container2 .chiziq{
+    position: absolute;
+    right: 750px;
+    width: 2px;
+    height: 300px;
+    bottom: 10px;
+    background-color: black;
+}
+
+main .tugash .container2 .next1{
+    position: absolute;
+    right: 450px;
+    top: 36px;
+    color: black;
+}
+main .tugash .container2 .next2{
+    position: absolute;
+    right: 600px;
+    height: 0px;
+    top: 250px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 70px;
+    line-height: 200px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: -5px;
+    color: black;
+}
+main .tugash .container2 .next3{
+    position: absolute;
+    right: 470px;
+    bottom: 100px;
+    color: black;
+}
+
+main .tugash .container2 .next4{
+    position: absolute;
+    right: 565px;
+    height: 0px;
+    bottom: -50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 70px;
+    line-height: 200px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: -5px;
+    color: black;
+}
+

@@ -1,0 +1,103 @@
+.container {
+    width: 100%;
+    background-color: rgba(211, 202, 202, 0.644);
+}
+.container .img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 7%;
+    width: 300px;
+}
+.newForms{
+    text-align: center;
+    align-self: center;
+    border-radius: 10px;
+    left: 451px;
+    top: 131px;
+    }
+.container .newForms  {
+    width: 500px;
+    transition: none;
+    text-align: center;
+    background-color: white;
+}
+
+input[type=text], select{
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 7px;
+        box-sizing: border-box;
+}
+input[type=email], select{
+    width: 427px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    box-sizing: border-box;
+}
+input[type=password],select {
+    width: 427px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    box-sizing: border-box;
+}
+.newForms .niktext{
+    text-align: start;
+    padding-inline-start: 35px;
+}
+input[type=age], select{
+    width: 110px;
+    padding: 10px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    box-sizing: border-box;
+}
+
+input[type=number], select{
+    width: 110px;
+    padding: 10px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    box-sizing: border-box;
+}
+
+input[type=god], select{
+    width: 110px;
+    padding: 10px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    box-sizing: border-box;
+}
+
+input[type=name], select{
+    width: 110px;
+    padding: 10px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    box-sizing: border-box;
+}
+
+.container .newForms .clikme{
+    width: 180px;
+    height: 50px;
+    border-radius: 10px;
+    background: none;
+    background-color: #00a400;
+    cursor: pointer;
+}

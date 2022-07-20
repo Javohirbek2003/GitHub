@@ -1,0 +1,262 @@
+@media only screen and (max-width: 992px) {
+    .container{
+        padding: 0 15px;
+    }
+
+    .m-b{
+        margin-bottom: 60px;
+    }
+
+    .title{
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    header{
+        padding: 0 15px;
+    }
+
+    header .header-content nav .nav-links{
+        margin-right: 84px;
+    }
+
+    header .header-content nav .second-navlist{
+        flex-direction: column;
+    }
+    header .header-content nav .second-navlist li a{
+        font-size: 12px;
+    }
+
+    main .promo{
+        height: 400px;
+        background-image: url(../img/promo-bg-tablet.jpg);
+        
+    }
+    main .promo .promo-content h1{
+        font-size: 26px;
+        line-height: 42px;
+    }
+
+    main .about{
+        justify-content: center;
+    }
+
+    main .about .about-card{
+        width: 354px;
+        
+    }
+
+    main .about .about-card:nth-of-type(odd){
+        margin-right: 15px;
+    }
+
+    main .skills{
+        display: none;
+    }
+    main .team,
+    main .clients{
+        padding: 60px 0;
+    }
+    main .team .team-content{
+        justify-content: center;
+    }
+
+    main .team .team-content .team-card{
+        width: 354px;
+        padding-bottom: 24px;
+        margin-right: 10px;
+    }
+
+    main .team .team-content .team-card{
+        margin-bottom: 30px;
+    }
+    main .clients .clients-wrapper .clients-item{
+        flex-basis: 30%;
+        
+    }
+    main .clients .clients-wrapper .clients-item{
+        margin-bottom: 30px;
+    }
+    footer{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    footer .footer-content{
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    footer .footer-info{
+        margin: 0;
+    }
+
+    footer .footer-sm{
+        margin: 0;
+    }
+
+    footer .footer-form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 60px;
+        flex-basis: 100%;
+    }
+
+    footer .footer-form input{
+        max-width: 450px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    header{
+        position: relative;
+        height: 60px;
+    }
+
+    header .header-content nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 100vw;
+        height: 100vh;
+        padding: 48px 40px;
+        position: absolute;
+        top: 0;
+        left: 100%;
+        background-color: white;
+        z-index: 99999;
+        transition: 0.5s;
+    }
+
+    header .header-content nav.active{
+        left: 0;
+    }
+
+    header .header-content nav .first-navlist{
+        display: flex;
+        flex-direction: column;
+        height: max-content;
+        margin-right: 0;
+    }
+
+    header .header-content nav .first-navlist li.active a{
+        color: #2196F3;
+    }
+    header .header-content nav .first-navlist li:not(:last-child){
+        margin-bottom: 35px;
+    }
+
+    header .header-content nav .first-navlist li a{
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 47px;
+    }
+
+    header .header-content nav .second-navlist{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    header .header-content nav .second-navlist > li:last-child{
+        margin-bottom: 32px;
+    }
+
+    header .header-content nav .second-navlist > li:last-child a{
+        font-size: 34px;
+        line-height: 40px;
+        color: #2196F3;
+    }
+    header .header-content nav .second-navlist > li a{
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 0.02em;
+        color: #757575;
+    }
+    header .header-content nav .second-navlist > li a i{
+        display: none;
+    }
+
+    header .header-content nav .second-navlist .nav-mobile-sm{
+        display: flex;
+        list-style: none;
+        margin-top: 64px;
+    }
+
+    header .header-content nav .second-navlist .nav-mobile-sm li:not(:last-child){
+        margin-right: 10px;
+        padding-right: 10px;
+        border-right: 1px solid rgba(33, 33, 33, 0.2);
+    }
+
+    header .header-content nav .second-navlist .nav-mobile-sm li a{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0.02em;
+        color: #2196F3;
+        text-decoration: none;
+    }
+    
+
+    header .header-content nav .navbar-close{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        right: 25px;
+        top: 21px;
+        width: 20px;
+        height: 20px;
+    }
+
+    header .header-content nav .navbar-close::before,
+    header .header-content nav .navbar-close::after{
+        content: '';
+        position: absolute;
+        width: 25px;
+        height: 3px;
+        background-color: black;
+    }
+    header .header-content nav .navbar-close::before{
+        transform: rotate(45deg);
+    }
+    header .header-content nav .navbar-close::after{
+        transform: rotate(-45deg);
+    }
+
+    header .header-content .navbar-toggle{
+        width: 24px;
+        height: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    header .header-content .navbar-toggle:after,
+    header .header-content .navbar-toggle:before,
+    header .header-content .navbar-toggle div{
+        width: 100%;
+        height: 2px;
+        background-color: black;
+    }
+    header .header-content .navbar-toggle:after,
+    header .header-content .navbar-toggle:before{
+        content: '';
+        display: block;
+    }
+    footer{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    footer .footer-content{
+        justify-content: center;
+    }
+
+    footer .footer-content .footer-info{
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+}
